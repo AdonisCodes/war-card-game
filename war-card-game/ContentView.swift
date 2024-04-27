@@ -49,7 +49,7 @@ struct ContentView: View {
                         impactMed.impactOccurred()
                         
                         playerScore += 1
-                    } else {
+                    } else if cpuScore > playerScore {
                         cpuScore += 1
                     }
                 }, label: {
